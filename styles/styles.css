@@ -1,0 +1,210 @@
+/* index file */
+
+/* GENERAL selectors*/
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    color: #212121;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+/* Шапка */
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: #000;
+}
+.logo-blue {
+    color: #2196F3;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+/* hover and focus for links */
+.social-links .link:hover, .social-links .link:focus {
+    color: #2196F3;
+}
+
+/* Головний заголовок */
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    background-color: #2F303A;
+}
+/* Button Замовити послугу */
+.hero-button {
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.hero-button:hover, .hero-button:focus {
+    color: #212121;
+}
+
+/* Наші переваги*/
+
+.hidden-title {
+    display: none;
+}
+.advantages {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.advantages-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* Чим ми займаємось*/
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+/* Наша команда*/
+.team {
+    background-color: #F5F4FA;
+}
+.member-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.member-position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* Footer */
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.link-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.social-links-footer .link-footer:hover {
+    color: #2196F3;
+}
+
+.social-links-footer .link-footer:focus {
+    color: #2196F3;
+}
+
+/*portfolio*/
+
+.button:hover, .button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #F5F4FA;
+    color: #212121;
+    border: none;
+}
+
+.examples-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.examples-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
