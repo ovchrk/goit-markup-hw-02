@@ -71,7 +71,7 @@ body {
     font-size: 44px;
     line-height: 1.3;
     letter-spacing: var(--second-letter-spacing);
-    color: var(--color-background);
+    color: var(--color-background); 
     text-transform: uppercase;
 
     background-color: var(--color-background-second);
@@ -154,9 +154,10 @@ body {
     color: var(--color-background);
 }
 .bottom-information {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-
+    
     color: var(--color-background);
 }
 .bottom-link {
@@ -181,7 +182,7 @@ body {
 }
 
 .button {
-    font-family: var(--font-logo);
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
